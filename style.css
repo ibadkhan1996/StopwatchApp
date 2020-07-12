@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    background: linear-gradient(270deg, #c33764, #1d2671);
+    background-size: 400% 400%;
+    animation: gradient 30s ease infinite;
+}
+
+@keyframes gradient {
+    0%{background-position:0% 96%}
+    50%{background-position:100% 5%}
+    100%{background-position:0% 96%}
+}
+.heading {
+    color: white;
+    font-size: 9vw;
+    margin: 25px 0px;
+    padding: 10px;
+}
+.digit {
+    width: 15%;
+    /* border: 1px solid black; */
+    display: inline-block;
+    color: white;
+    font-size: 10vw;
+    margin: 2px;
+}
+.colon {
+    display: inline-block;
+    color: white;
+    font-size: 10vw;
+    margin: 2px;
+}
+p {
+    font-size: 2vw;
+    margin-top: 25px;
+    color: black;
+    opacity: 0.2;
+}
+@media only screen and (min-width:768px){
+.mybtn {
+    font-size: 22px;
+    margin: 0px 5px;
+    padding: 10px 30px;
+}
+}
